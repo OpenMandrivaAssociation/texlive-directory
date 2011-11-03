@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /biblio/bibtex/contrib/directory
+# catalog-date 2007-01-22 14:15:41 +0100
+# catalog-license lppl
+# catalog-version 1.20
 Name:		texlive-directory
 Version:	1.20
 Release:	1
@@ -51,6 +57,7 @@ like database.
 %doc %{_texmfdistdir}/doc/latex/directory/README
 %doc %{_texmfdistdir}/doc/latex/directory/directory.pdf
 %doc %{_texmfdistdir}/doc/latex/directory/directory.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -61,3 +68,5 @@ like database.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
