@@ -58,3 +58,17 @@ like database.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.20-2
++ Revision: 750992
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.20-1
++ Revision: 718235
+- texlive-directory
+- texlive-directory
+- texlive-directory
+- texlive-directory
+
