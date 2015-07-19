@@ -6,7 +6,7 @@
 # catalog-version 1.20
 Name:		texlive-directory
 Version:	1.20
-Release:	9
+Release:	10
 Summary:	An address book using BibTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/directory
