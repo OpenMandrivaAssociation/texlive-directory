@@ -1,6 +1,6 @@
 Name:		texlive-directory
 Version:	15878
-Release:	1
+Release:	2
 Summary:	An address book using BibTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/directory
